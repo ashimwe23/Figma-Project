@@ -7,55 +7,87 @@
     <link rel="stylesheet" href="output.css">
 </head>
 <body class="bg-white">
-    <div  class="container flex flex-row justify-between items-center mx-auto space-x-5 py-3 px-10 h-20  fixed">
-        <!-- navbar -->
-         <nav class="container flex flex-row justify-between mx-auto space-x-6 py-3 px-10 h-20  fixed ">
-             <img src="image\logo.png" alt="" class=" h-15 w-50 mt-6">
-            
-                <ul class="flex justify-between space-x-9 mt-10 text-normal text-gray-700 hover:text-red transition ">
-                    <li> <a href="#about">About </a></li>
-                    <li> <a href="#Features">Features</a> </li>
-                    <li> <a href="#pricing">Pricing</a></li>
-                    <li> <a href="#testimonial">Testimonial</a></li>
-                    <li> <a href="#help">Help</a></li>
-                </ul>
-            
-            <div class="mt-7.5 space-x-3" >
-                <a class="font-bold hover:text-red transition" href="">Sign In</a>
-                <button class="border-red-700 border-2 py-2 px-8 rounded-4xl text-red-700 font-bold hover:bg-red-600 hover:text-white transition">Sign Up</button>
-            <div>
-         </nav>
 
+<!-- NAVBAR -->
+<header class="max-w-7xl mx-auto flex justify-between items-center py-6 px-10">
 
-         <!-- Intro Section -->
-<div class="flex justify-between items-center mt-150 px-12">
+    <img src="image/logo.png" class="h-10" />
 
-    <!-- Left side -->
+    <ul class="hidden md:flex space-x-10 text-gray-700">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Testimonial</a></li>
+        <li><a href="#">Help</a></li>
+    </ul>
+
+    <div class="space-x-4">
+        <a class="font-bold" href="#">Sign In</a>
+        <button class="border border-red-500 text-red-500 px-6 py-2 rounded-full">
+            Sign Up
+        </button>
+    </div>
+
+</header>
+
+<!-- HERO -->
+<section class="max-w-7xl mx-auto flex justify-between items-center mt-20 px-10">
+
     <div>
-        <h1 class="font-semibold text-5xl leading-tight">
+        <h1 class="text-5xl font-semibold leading-tight">
             Want anything to be <br>
-            easy with <strong>LaslesVPN</strong>.
+            easy with <strong>LaslesVPN</strong>
         </h1>
 
-        <p class="text-gray-700 mt-5 ">
-            Provide network for all your needs with easy and fun using
-            <strong>LaslesVPN</strong>
-            <br>
-            discover interesting features with us.
+        <p class="text-gray-600 mt-5">
+            Provide network for all your needs using LaslesVPN.
         </p>
 
-        <button class="mt-8 py-3 px-12 rounded-lg text-white bg-red-500 font-bold shadow-xl hover:bg-red-600 transition">
+        <button class="mt-8 bg-red-500 text-white px-10 py-3 rounded-lg">
             Get Started
         </button>
     </div>
 
-    <!-- Right side -->
-    <div class="w-1/2">
-        <img src="image/person-1.png" alt="" class="w-full">
+    <img src="image/person-1.png" class="w-1/2" />
+
+</section>
+
+<!-- STATS -->
+<div class="max-w-5xl mx-auto mt-16 bg-white shadow-lg rounded-xl px-12 py-8">
+
+    <div class="flex justify-between items-center">
+
+        <div class="flex items-center space-x-4">
+            <img src="image/users.png" class="w-10 h-10" />
+            <div>
+                <h2 class="text-xl font-bold">90+</h2>
+                <p class="text-gray-500">Users</p>
+            </div>
+        </div>
+
+        <div class="w-px h-12 bg-gray-300"></div>
+
+        <div class="flex items-center space-x-4">
+            <img src="image/locations.png" class="w-10 h-10" />
+            <div>
+                <h2 class="text-xl font-bold">30+</h2>
+                <p class="text-gray-500">Locations</p>
+            </div>
+        </div>
+
+        <div class="w-px h-12 bg-gray-300"></div>
+
+        <div class="flex items-center space-x-4">
+            <img src="image/servers.png" class="w-10 h-10" />
+            <div>
+                <h2 class="text-xl font-bold">50+</h2>
+                <p class="text-gray-500">Servers</p>
+            </div>
+        </div>
+
     </div>
 
 </div>
-    </div>
-     
+
 </body>
 </html>
